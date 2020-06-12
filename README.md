@@ -4,5 +4,8 @@ Requirements:
   python3 and above
   yagmail
   tkinter
+  
+  
+When running the program make sure the config.txt file is in the same directory as the main program
 
 
