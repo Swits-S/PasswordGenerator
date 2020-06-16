@@ -390,7 +390,7 @@ def mail(addresss, e, e2, accountName):
     receivers = [str(emailaddr)]
     body = "Thank you for using password generator" + "\n" + "Here is your brand new password:    " + password + "\n"
 
-    yag = yagmail.SMTP(user="noreply2390@gmail.com", password="qtyyhuoirzikwdhd")
+    yag = yagmail.SMTP(user="Enter your email", password="enter your own password")
     yag.send(
         to=receivers,
         subject=account,
